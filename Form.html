@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+
+    <form action="">
+      <!-- Fields -->
+      <label for="username">Username </label>
+      <input type="text" id="username" />
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+      <br /><br />
+
+      <!-- Radio options -->
+      <label>Select your age below</label>
+      <br /><br />
+      <input type="radio" name="age" value="0-25" id="option-1" required />
+      <label for="option-1">0-25</label>
+      <input type="radio" name="age" value="26-50" id="option-2" required />
+      <label for="option-2">26-50</label>
+      <input
+        type="radio"
+        name="age"
+        value="51 and above"
+        id="option-3"
+        required
+      />
+      <label for="option-3">51 and above</label>
+      <br /><br />
+
+      <!-- Drop down selector -->
+      <label for="question">Select security question</label>
+      <select name="question" id="question">
+        <option value="q1">color of favourite socks?</option>
+        <option value="q1">Favourite veegtable?</option>
+        <option value="q1">pet name?</option>
+      </select>
+      <br /><br />
+      <label for="answer">Type your answer for security question</label>
+      <input type="text" id="answer" name="answer" />
+      <br /><br />
+
+      <!-- Textarea -->
+      <textarea
+        name="bio"
+        id="bio"
+        placeholder="Enter your bio here ..."
+        cols="30"
+        rows="10"
+      ></textarea>
+      <br /><br />
+
+      <button type="submit">Submit Form</button>
+    </form>
+  </body>
+</html>
