@@ -1,0 +1,10 @@
+/* Selectors : h1 and p are called selectors */
+/* declarations : key value properties assigned to selectors */
+
+h1 {
+  color: orange;
+}
+
+p {
+  color: slategray;
+}
