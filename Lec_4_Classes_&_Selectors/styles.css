@@ -1,0 +1,13 @@
+/* p {
+  color: red;
+} */
+p.error {
+  color: red;
+}
+p.success {
+  color: green;
+}
+p.success.feedback {
+  border: 1px dashed rgb(182, 180, 59);
+  color: rgb(182, 180, 59);
+}
