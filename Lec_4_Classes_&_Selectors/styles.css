@@ -23,10 +23,25 @@ a[href] {
   color: aqua;
 }
 /* Select a property that includes google somewhere in text */
-a[href*="google"] { 
+a[href*="google"] {
   color: coral;
 }
 /* Select a property that includes .com at the end of text */
-a[href$=".com"] { 
+a[href$=".com"] {
   color: coral;
+}
+
+/* Inheritence */
+#content {
+  /* following properties are not inherited by chil p elements */
+  border: 1px solid coral;
+  margin: 40px;
+  /* font sie and family are inherited by child p elements */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+/* If we want to inherit parent properties taht are not inherited, we can do like this */
+p {
+  border: inherit;
+  margin: inherit;
 }
