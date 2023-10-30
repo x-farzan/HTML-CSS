@@ -1,6 +1,6 @@
-/* p {
-  color: red;
-} */
+p {
+  color: lime;
+}
 p.error {
   color: red;
 }
@@ -10,4 +10,8 @@ p.success {
 p.success.feedback {
   border: 1px dashed rgb(182, 180, 59);
   color: rgb(182, 180, 59);
+}
+
+div h2 {
+  color: purple;
 }
