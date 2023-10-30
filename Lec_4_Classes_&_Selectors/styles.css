@@ -7,11 +7,26 @@ p.error {
 p.success {
   color: green;
 }
+/*  Chaining classes */
 p.success.feedback {
   border: 1px dashed rgb(182, 180, 59);
   color: rgb(182, 180, 59);
 }
 
+/* Descendent Selector */
 div h2 {
   color: purple;
+}
+
+/* Attribute Selector */
+a[href] {
+  color: aqua;
+}
+/* Select a property that includes google somewhere in text */
+a[href*="google"] { 
+  color: coral;
+}
+/* Select a property that includes .com at the end of text */
+a[href$=".com"] { 
+  color: coral;
 }
